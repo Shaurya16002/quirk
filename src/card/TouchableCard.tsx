@@ -102,7 +102,7 @@ export const CardTextContent = ({ text }: { text: string }) => (
     style={{
       color: theme.darkText,
       fontWeight: "400",
-      fontSize: 16,
+      fontSize: 18,
       marginBottom: 8,
       paddingLeft: 12,
       paddingRight: 12,
@@ -124,7 +124,7 @@ export const CardMutedContent = ({ children }) => (
       paddingBottom: 12,
       paddingTop: 6,
       margin: 4,
-      borderRadius: 8,
+      borderRadius: 6,
       justifyContent: "center",
     }}
   >
